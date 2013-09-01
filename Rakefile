@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Rubyfriends::Application.load_tasks
+NeoDealWithIt::Application.load_tasks
