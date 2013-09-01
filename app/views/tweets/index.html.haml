@@ -1,13 +1,13 @@
 .hero-unit
   %h3
-    Community starts with friendship!
+    Celebrate the victories at Neo!
     %span= link_to "Learn more", about_path, id: 'learn-more'
   -# TODO - add facebook like button
   %p
-    Share your friendships with the hashtag
-    = link_to "#RubyFriends", twitter_url
+    Share your successes with the hashtag
+    = link_to "#NeoDealWithIt", twitter_url
   %span.shared-smiles-count
-    #{total_tweets} friendships so far!
+    #{total_tweets} tweets so far!
 
 %ul#smiles-list
   - paginated_tweets.map { |tweet| Tweet::HtmlPresenter.new tweet }.each do |tweet|

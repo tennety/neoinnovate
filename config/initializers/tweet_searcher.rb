@@ -1,1 +1,1 @@
-TWEET_SEARCHER = TwitterSearch.new(['NeoDealWithIt'])
+TWEET_SEARCHER = TwitterSearch.new(['NeoDealWithIt', 'NeoDwi'])
